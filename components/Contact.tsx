@@ -11,7 +11,7 @@ export default function Contact() {
                         <div className="pb-8">
                             <h5 className="text-Second tracking-widest italic text-center text-lg lg:text-left">Entre em contato</h5>
                             <h1 className="text-center tracking-widest text-5xl font-semibold uppercase lg:text-left">Reserve seu Horário!</h1>
-                            <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nam iusto expedita ipsum sed voluptate!</p>
+                            <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nam iusto expedita ipsum sed voluptate!s</p>
                         </div>
 
                         <div className='flex justify-between border-b border-dashed pb-4'>
