@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-Primary: #111111;
+  --color-Second: #A2A2A2;
+}
+
+body {
+  background-color: var(--color-Primary);
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.maxW {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.mainBG {
+  background-image: url('/mainbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.numberBG {
+  background-image: url('/bgnunbers.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.depoBG {
+  background-image: url('/testimonials.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fullBG{
+  background-image: url('/backgrounmain.jpg');
+}
+
+h1,
+h2,
+h3,
+h4,
+li {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #A2A2A2;
+}
+
+.swiper-pagination {
+  bottom: -5px !important; 
+}
+.swiper-pagination-bullet {
+  background-color: #A2A2A2 !important; 
+}
+.swiper-pagination-bullet-active {
+  background-color: #FFF !important; 
+}
+
+.custom{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
