@@ -6,6 +6,7 @@ import Galery from "@/components/Galery";
 import Main from "@/components/Main";
 import Maps from "@/components/Maps";
 import Numbers from "@/components/Numbers";
+import Seta from "@/components/Seta";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Depoiments />
       <Contact />
       <Maps />
+      <Seta />
     </>
   );
 }

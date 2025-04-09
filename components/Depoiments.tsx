@@ -63,7 +63,7 @@ export default function Depoiments(): JSX.Element {
         <div className='absolute w-[8%] top-1/2 -translate-y-1/2 left-2 lg:left-20 z-10'>
           <img
             className=' cursor-pointer transition-transform duration-300'
-            src='setas.png'
+            src='/seta.png'
             alt='Seta esquerda'
             onClick={() => swiperRef.current?.slidePrev()}
           />
@@ -71,7 +71,7 @@ export default function Depoiments(): JSX.Element {
         <div className='absolute w-[8%] top-1/2 -translate-y-1/2 right-2 lg:right-20 z-10'>
           <img
             className='cursor-pointer  transition-transform duration-300 -scale-x-100'
-            src='setas.png'
+            src='/seta.png'
             alt='Seta direita'
             onClick={() => swiperRef.current?.slideNext()}
           />

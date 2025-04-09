@@ -82,13 +82,13 @@ export default function Gallery() {
                 <div className='w-full flex justify-center mt-10 gap-20'>
                     <img
                         className='w-[20%] object-cover lg:w-[8%] cursor-pointer hover:scale-110 transition-transform duration-300'
-                        src="setas.png"
+                        src="/seta.png"
                         alt="Seta esquerda"
                         onClick={() => swiperRef.current?.slidePrev()}
                     />
                     <img
                         className='w-[20%] lg:w-[8%] -scale-x-100 cursor-pointer transition-transform duration-300'
-                        src="setas.png"
+                        src="/seta.png"
                         alt="Seta direita"
                         onClick={() => swiperRef.current?.slideNext()}
                     />
